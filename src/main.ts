@@ -54,22 +54,27 @@ export interface colorMap {
 	backgroundColor: colorSpec;
 }
 export const defaultolorMapDark: colorMap = {
-	markdown: {name:"default", value: "#00ff00"},
-	attachment: {name:"default",  value: "#ffff00" },
-	broken: {name:"default",  value: "#ff0000"},
-	excalidraw: {name:"default",  value: "#00ffff"},
-	pdf: {name:"default",  value: "#0000ff"},
-	tag: { name: "default", value: "#ff00ff" },
-	frontmatter_tag:{name: "default", value:"#fa8072"},
-	screenshot:{name: "default", value:"#7f00ff"},
-	nodeHighlightColor: {name:"default",  value: "#3333ff"},
-	nodeFocusColor: {name:"default",  value: "#ff3333"},
-	linkHighlightColor: {name:"default",  value: "#ffffff"},
-	linkNormalColor: {name:"default",  value: "#ffffff"},
-	linkParticleColor: {name:"default",  value: "#ffffff"},
-	linkParticleHighlightColor: { name: "default", value: "#ff00ff" },
-	selectionBoxColor:{name:"default", value:"#ffff00"},
-	backgroundColor:{name:"default",value:"#000003"}
+  // Notas y archivos: Azules fríos de los brazos espirales
+  markdown:                   { name: "Spiral Arm",   value: "#4FC3F7" },
+  attachment:                 { name: "Star Cluster",  value: "#81D4FA" },
+  excalidraw:                 { name: "Ice Nebula",    value: "#00B4D8" },
+  pdf:                        { name: "Deep Blue",     value: "#1565C0" },
+  // Etiquetas y capturas: Cálidos del núcleo galáctico
+  tag:                        { name: "Galactic Core", value: "#FFB347" },
+  frontmatter_tag:            { name: "Solar Burst",   value: "#FF8C42" },
+  screenshot:                 { name: "Amber Glow",    value: "#FFC857" },
+  // Estado y errores
+  broken:                     { name: "Red Dwarf",     value: "#FF4444" },
+  nodeFocusColor:             { name: "Nova Flash",    value: "#FFD166" },
+  // Interacción y nodos: Cian de los filamentos externos
+  nodeHighlightColor:         { name: "Arc Light",     value: "#00E5FF" },
+  linkHighlightColor:         { name: "Starlight",     value: "#E3F2FD" },
+  linkNormalColor:            { name: "Cosmic Dust",   value: "#5B8FB9" },
+  linkParticleColor:          { name: "Photon",        value: "#B3E5FC" },
+  linkParticleHighlightColor: { name: "Flare",         value: "#FFB347" },
+  // Selección y fondo
+  selectionBoxColor:          { name: "Gold Ring",     value: "#FFC857" },
+  backgroundColor:            { name: "Deep Space",   value: "#080808" }//"#060D1F" }
 }
 export const defaultolorMapLight: colorMap = {
 	markdown: {name:"default", value: "#00ff00"},
